@@ -15,7 +15,7 @@ async function searchMovies(){
         let input = document.getElementById('search').value
     
 
-        const url = `http://www.omdbapi.com/?apikey=188cb6a&s=${input}`
+        const url = `https://www.omdbapi.com/?apikey=188cb6a&s=${input}`
 
         let res = await fetch(url)
 
